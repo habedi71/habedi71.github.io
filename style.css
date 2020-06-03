@@ -1,0 +1,70 @@
+h1 {
+  font-family: arial;
+  font-size: 3rem;
+}
+
+p {
+
+  font-family: arial;
+  font-size: 2rem;
+}
+
+input, button {
+  font-family: arial;
+  font-size: 2rem;
+  border: 2px solid #889988;
+  background-color: #DDFFDD;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li button {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #DDDDFF;
+  border: 2px solid #AAAAFF;
+  font-weight: 300;
+  font-family: arial;
+  font-size: 1.5rem;
+}
+
+li button:hover {
+  background-color: #FFDDDD;
+  border: 2px solid #CC5555;
+}
+
+ ul li {
+  font-weight: 300;
+  font-family: arial;
+  font-size: 1.5rem;
+ }
+
+ul {
+  list-style: none;
+}
